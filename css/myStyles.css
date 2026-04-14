@@ -1,0 +1,106 @@
+body{
+    background-color:lightblue;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 30px;
+}
+
+.masthead {
+    height: 80vh; /* makes the image big and visible */
+    min-height: 500px;
+    background-size: cover;   /* shows full image */
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    display: flex;
+    align-items: center;        /* vertical center */
+    justify-content: center;    /* horizontal center */
+    text-align: center;
+}
+
+.site-heading h1,
+.site-heading .subheading {
+    color: white;
+}
+
+.site-heading h1 {
+    font-size: 4rem;
+    font-weight: bold;
+}
+
+.site-heading .subheading {
+    font-size: 1.5rem;
+}
+
+h1{
+    color:black;
+}
+
+.box{
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 80%;
+    margin: auto;
+    margin-top: 40px;
+}
+
+img{
+    width: 300px;
+    border-radius: 10px;
+}
+
+.place{
+    background: #fff;
+    padding: 15px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.place img{
+    width: 300px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+ol li{
+    margin-bottom: 25px;
+    background: #fff;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+ol li img{
+    width: 300px;
+    border-radius: 10px;
+    display: block;
+    margin: 10px 0;
+}
+
+iframe{
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.navbar {
+    position: sticky;
+    top: 0;
+    background-color: aliceblue;
+    padding: 15px;
+    text-align: center;
+    border-bottom: 1px solid #ccc;
+}
+
+.navbar a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #0077b6;
+    font-weight: bold;
+}
+
+.navbar a:hover {
+    color: #023e8a;
+}
+
+h1, h2, h3 {
+    scroll-margin-top: 80px;
+}
